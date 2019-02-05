@@ -1,0 +1,153 @@
+\documentclass[10pt]{article}
+\usepackage{titling}
+\usepackage{enumitem}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\usepackage{datetime}
+\hypersetup{
+colorlinks=true,       % false: boxed links; true: colored links
+linkcolor=blue,        % color of internal links
+citecolor=blue,        % color of links to bibliography
+filecolor=magenta,     % color of file links
+urlcolor=blue
+}
+%++++++++++++++++++++++++++++++++++++++++
+
+\setlength{\heavyrulewidth}{0.1em}
+\newcommand{\otoprule}{\midrule[\heavyrulewidth]}
+\newdate{trainingd}{27}{03}{2018}
+
+\sloppy
+
+\title{Deep Learning IndabaX @NUST}
+\posttitle{\par\end{center}}
+\preauthor{}
+\author{}
+\postauthor{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Motivation}
+\label{sec:motivation}
+
+The research activities at the Faculty of Computing and Informatics (FCI), Namibia University of Science and Technology (NUST\footnote{\url{www.nust.na}}),
+revolve around five ($05$) \emph{research focus areas} (RFA). Among these is \emph{Big Data}, which encompasses research efforts related to
+\emph{smart data infrastructure}, \emph{advanced analytics} and \emph{dependable systems} (fault-tolerant systems). The advanced analytics component strongly
+relies on \emph{machine learning}, including \emph{deep learning}. As such, a one-day training in deep learning not only helps sharpen the skills of the
+students partaking in that research effort, but it also participates in establishing an active community around machine learning, e.g., derive
+insight from large data sets. Furthermore, this initiative contributes, nationwide, to building capacity to addressing an ever growing
+challenge faced by both businesses and Government agencies; data-driven decision making.
+
+\section{Strategy for Diversity and Inclusion}
+\label{sec:diversity-and-inclusion}
+
+First and foremost, at every level of involvement our approach has considered gender sensibly. Second, as much as possible various perspectives have been
+integrated. For example, the organizing team includes views from both academia and the industry. As such the resulting programme does not focus only on the
+research or academic needs. Rather, it caters to a broader swathe of needs. As for the speakers, we carefully selected speakers from academia,
+Government agencies and industry to help package and deliver an introductory set of practical lectures to deep learning. Finally, our strategy to reaching out
+and selecting participants will follow similar criteria.
+
+\section{Organising Team}
+\label{sec:org-team}
+
+\begin{description}[align=left]
+    \item[Lameck M. Amugongo] Big Data and Open Data enthusiast with a strong interest in AI and machine learning, he is a GSM Business Intelligence Analyst at
+    Telecom Namibia and a Lecturer at NUST;
+    \item[Jos\'{e} G. Quenum] He is an Associate Professor at NUST, leading the Big Data RFA at FCI. His research interests include Big Data and Distributed
+    Systems;
+    \item[Emilia N. Shikeenga] She is a Data Warehouse Business Intelligence Analyst at Telecom Namibia;
+    \item[Annastasia Shipepe] She is a Lecturer at UNAM\footnote{University of Namibia, \url{www.unam.na}}.
+\end{description}
+
+\section{Description of our IndabaX}
+\label{sec:indaba-format}
+
+% Throughout the preliminary phase of organising this IndabaX event we reached out to colleagues at the University of Namibia (UNAM)
+% in search of collaboration. As a result both the organising team and the speaker list involve members of UNAM.
+
+The type of IndabaX we wish to organise for this training is a structured series of tutorial lectures by speakers from Namibia, followed by an open discussion
+related to deep learning. Tentatively, we plan to run the training on \displaydate{trainingd}. A summary of the programme is depicted in Table~\ref{tab:prog}.
+We expect around twenty five ($25$) participants for the training from both universities and the industry. To advertise for the event we shall combine several
+ approaches, including outreach to lecturers and students, social media as well as any other communication means available within the Faculty.
+
+\begin{table}[htp!]
+  \caption{Summary of Programme}
+  \label{tab:prog}
+  \centering\small%
+  \begin{tabular}{clr}
+    \toprule%
+    {\bfseries{Time Slot}} & {\bfseries{Topic}} & {\bfseries{Speaker}}\\
+    \otoprule
+    \multirow{3}*{08:30 - 09:15} & Introduction to the Bayesian Model & Dr Isak Neema\\
+    && Namibia Statistics Agency\\
+    % && INeema@nsa.org.na\\
+    \midrule
+    \multirow{3}*{09:15 - 10:00} & Introduction to Machine Learning & Dr Guy Z. Lusilao\\
+    && Namibia University of Science and Technology\\
+    % && gzodi@nust.na\\
+    \midrule
+    \multirow{3}*{10:00 - 10:30} & Introduction to Neural Networks & Prof Singh D. Jat\\
+    && Namibia University of Science and Technology\\
+    % && dsingh@nust.na\\
+    \midrule
+    \multicolumn{3}{c}{Break}\\
+    \midrule
+    \multirow{3}*{10:45 - 11:30} & Practical I & Lameck Amugongo\\
+    & (Tensorflow \& Neural Networks)& Namibia University of Science and Technology\\
+    % && lamugongo@nust.na\\
+    \midrule
+    \multirow{3}*{11:30 - 13:15} & Practical II & Lameck Amugongo\\
+    & (Tensorflow \& Deep Neural Networks)& Namibia University of Science and Technology\\
+    % && lamugongo@nust.na\\
+    \midrule
+    \multicolumn{3}{c}{Break}\\
+    \midrule
+    \multirow{3}*{14:15 - 15:00} & Deep Learning & Dr Nalina Suresh\\
+    & & University of Namibia\\
+    % && nsuresh@unam.na\\
+    \midrule
+    \multirow{8}*{15:00 - 17:00} & \multicolumn{2}{c}{\emph{Discussion on Deep Learning}}\\
+    &  Data Analytics Challenges & Dr Pieter Kruger\\
+    & & Standard Bank Namibia\\
+    % & & Pieter.Kruger@standardbank.com.na\\
+    \cmidrule{2-3}\\
+    &  Programming Neural Networks on Multiple & Dr Paulus Sheetekela\\
+    & Processors & University of Namibia\\
+    % & & psheetekela@unam.na\\
+    \bottomrule%
+  \end{tabular}
+\end{table}
+
+\section{Budget}
+\label{sec:budget}
+
+\begin{center}
+    \begin{tabular}{lcrr}
+        \toprule
+        {\bfseries{Item}} & {\bfseries{Quantity}} & {\bfseries{Unit Price}} (ZAR) & {\bfseries{Amount}} (ZAR)\\
+        \otoprule
+        Conference Room (Full Day) & $1$ & $3000$ & $3000$\\
+        \midrule
+        Coffee and Tea Break & $2\times 40$ & $15$ & $1200$\\
+        \midrule
+        Lunch & $40$ & $196$ & $7840$\\
+        \midrule
+        Advertisement & $1$ & $5000$ & $5000$\\
+	\midrule\midrule
+        \multicolumn{3}{c}{Total} & $17040$\\
+        \bottomrule
+    \end{tabular}
+\end{center}
+
+
+\end{document}

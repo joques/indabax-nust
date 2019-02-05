@@ -1,0 +1,148 @@
+\documentclass[10pt]{article}
+\usepackage{titling}
+\usepackage{enumitem}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\usepackage{datetime}
+\usepackage{pdflscape}
+\usepackage{fontspec}
+
+\hypersetup{
+colorlinks=true,       % false: boxed links; true: colored links
+linkcolor=blue,        % color of internal links
+citecolor=blue,        % color of links to bibliography
+filecolor=magenta,     % color of file links
+urlcolor=blue
+}
+%++++++++++++++++++++++++++++++++++++++++
+
+\setlength{\heavyrulewidth}{0.1em}
+\newcommand{\otoprule}{\midrule[\heavyrulewidth]}
+\newdate{trainingd}{27}{03}{2018}
+
+\setmainfont{Calibri}
+
+\sloppy
+
+% \title{Deep Learning IndabaX @NUST}
+% \posttitle{\par\end{center}}
+% \preauthor{}
+% \author{}
+% \postauthor{}
+% \date{\today}
+
+\begin{document}
+
+% \maketitle
+\thispagestyle{plain}
+% \begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+
+        \Large
+        \textbf{IndabaX@NUST 2018}
+        \vspace{0.2cm}
+
+        \small
+        \textit{Machine Learning Training}\\
+
+
+        \vspace{1cm}
+        \large
+        \textbf{Date}: \displaydate{trainingd}
+
+        \vspace{0.3cm}
+        \large
+        \textbf{Venue}: NUST Hotel School
+
+        \vspace{0.5cm}
+        \large
+        \textbf{Contact}: Annastasia Shipepe (ashipepe@gmail.com)
+
+        \vspace{0.5cm}
+        \Large
+        \textbf{Short Description}
+    \end{center}
+% \end{titlepage}
+
+Following their successful training on \emph{Deep Learning} in 2017, the Deep Learning Indaba group has taken further steps this year to widen the machine
+learning network across Africa. The Faculty of Computing and Informatics (FCI), Namibia University of Science and Technology (NUST), has taken that
+opportunity to organise a one-day training on \emph{Machine Learning}. The topics to be covered range from a \emph{general introduction to machine}, to
+practical sessions on \emph{deep learning}, followed by a discussion session on the \emph{challenges of data analytics} and \emph{how to program
+neural networks} (see Table~\ref{tab:prog} below). We have assembled a team from academia and industry with a strong interest in Data Science and Artificial
+Intelligence.
+
+% The research activities at the Faculty of Computing and Informatics (FCI), Namibia University of Science and Technology (NUST\footnote{\url{www.nust.na}}),
+% revolve around five ($05$) \emph{research focus areas} (RFA). Among these is \emph{Big Data}, which encompasses research efforts related to
+% \emph{smart data infrastructure}, \emph{advanced analytics} and \emph{dependable systems} (fault-tolerant systems). The advanced analytics component strongly
+% relies on \emph{machine learning}, including \emph{deep learning}. As such, a one-day training in deep learning not only helps sharpen the skills of the
+% students partaking in that research effort, but it also participates in establishing an active community around machine learning, e.g., derive
+% insight from large data sets. Furthermore, this initiative contributes, nationwide, to building capacity to addressing an ever growing
+% challenge faced by both businesses and Government agencies; data-driven decision making.
+% coming soon....
+
+\begin{landscape}
+    \begin{table}[htp!]
+      \caption{Summary of Programme}
+      \label{tab:prog}
+      \centering\small%
+      \begin{tabular}{clr}
+        \toprule%
+        {\bfseries{Time Slot}} & {\bfseries{Topic}} & {\bfseries{Instructor/Speaker}}\\
+        \otoprule
+        \multirow{4}*{08:10 - 08:25} & \emph{Welcoming Remarks} & Prof. Tjama Tjivikua\\
+        && Vice Chancellor,\\
+        && Namibia University of Science and Technology\\
+        && ttjivikua@nust.na\\
+        \midrule
+        \multirow{3}*{08:30 - 09:15} & \emph{Introduction to the Bayesian Model} & Dr Isak Neema\\
+        && Namibia Statistics Agency\\
+        && INeema@nsa.org.na\\
+        \midrule
+        \multirow{3}*{09:15 - 10:00} & \emph{Introduction to Machine Learning} & Dr Guy Z. Lusilao\\
+        && Namibia University of Science and Technology\\
+        && gzodi@nust.na\\
+        \midrule
+        \multirow{3}*{10:00 - 10:30} & \emph{Introduction to Neural Networks} & Prof Dharm S. Jat\\
+        && Namibia University of Science and Technology\\
+        && dsingh@nust.na\\
+        \midrule
+        \multicolumn{3}{c}{Break}\\
+        \midrule
+        \multirow{3}*{10:45 - 11:30} & \emph{Practical I} & Lameck Amugongo\\
+        & (\emph{Tensorflow} \& \emph{Neural Networks})& Namibia University of Science and Technology\\
+        && lamugongo@nust.na\\
+        \midrule
+        \multirow{3}*{11:30 - 13:15} & Practical II & Lameck Amugongo\\
+        & (\emph{Tensorflow} \& \emph{Deep Neural Networks})& Namibia University of Science and Technology\\
+        && lamugongo@nust.na\\
+        \midrule
+        \multicolumn{3}{c}{Break}\\
+        \midrule
+        \multirow{3}*{14:15 - 15:00} & \emph{Deep Learning} & Dr Nalina Suresh\\
+        & & University of Namibia\\
+        && nsuresh@unam.na\\
+        \midrule
+        \multirow{10}*{15:00 - 17:00} & \multicolumn{2}{c}{\emph{Discussion on Deep Learning}}\\
+        &  \emph{Data Analytics Challenges} & Dr Pieter Kruger\\
+        & & Standard Bank Namibia\\
+        & & Pieter.Kruger@standardbank.com.na\\
+        \cmidrule{2-3}
+        &  \emph{Programming Neural Networks on Multiple} & Dr Paulus Sheetekela\\
+        & \emph{Processors} & University of Namibia\\
+        & & psheetekela@unam.na\\
+        \cmidrule{2-3}
+        &  \emph{Diversity and ML impact on Society} & Ms Wilhelmina Ndapewa Onyothi\\
+        % & & \\
+        \bottomrule%
+      \end{tabular}
+    \end{table}
+\end{landscape}
+
+\end{document}

@@ -1,0 +1,43 @@
+Information to provide after the IndabaX
+
+1 - Based on discussions, what do your attendees think about what could be done to further strengthen ML in Africa?
+
+2 - how many attendees?
+3 - what is the woman percentage?
+4 - provide more breakdown (undergrad, MSc, PhD, Academics, Corporate, Startup)
+
+5 - how did we advertise?
+
+6 - which aspects of the event was particularly successful?
+7 - what aspects could have been improved or not included in the future?
+8 - who was the best speaker?
+
+
+
+Report on the sessions
+
+1 - Introduction to Bayesian Model (Dr Isak Neema)
+
+2 - Introduction to Machine Learning (Dr Zodi Lusilao)
+  * general introduction
+  * linear regression
+  * practical session
+
+3 - Introduction to Neural Networks (Prof. Singh D. Jat)
+  * neural networks
+  * practical
+    + description of the practical
+    + normalisation (min/max)
+    + partition (70% training, 30% testing)
+
+4 - Neutral Networks (practical with tensorflow) (Mr Lameck Amugongo)
+  * quick intro
+  * student presentation natural language processing
+
+5 - Introduction to Deep Learning (Dr Nalina Suresh)
+  * theoretical underpinnings of DL
+    + deep learning flowchart
+  * a quick example
+
+6 - Programming Neural Networks on Multiple processors (Dr Paulus Sheetekela)
+  * 
