@@ -24,4 +24,5 @@
 *.bib.swp
 !images/*.pdf
 !2018-edition/slides/*.pdf
+!2019-edition/documents/*.pdf
 
